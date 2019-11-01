@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# Welcome to CICS Community Outreach Student Team!
 
-You can use the [editor on GitHub](https://github.com/cics-cost/cics-cost.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This site is under construction. Please check back soon!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Mission
 
-### Markdown
+1. Build a community of CICS students who are passionate about outreach.
+2. Work with educators (K-12 and undergrad) to understand their CS support needs.
+3. Provide opportunities for CICS students to develop effective communication and teaching skills.
+4. Connect CICS students with outreach programs in the area offering opportunities for mentors.
+5. Educate the broader community with CS topics.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Contact us
 
-```markdown
-Syntax highlighted code block
+To contact us, please email `costchairs at cs dot umass dot edu`.
 
-# Header 1
-## Header 2
-### Header 3
+You can also fill out out interest form [here](https://docs.google.com/forms/d/e/1FAIpQLSdg6PEJL4jzL4yWv47KpDPTH6TRMBEBtMmGYb3Knok_2lG6Lg/viewform), and we'll add you to our mailing list.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cics-cost/cics-cost.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Thanks for your interest!

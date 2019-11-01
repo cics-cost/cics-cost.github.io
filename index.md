@@ -1,5 +1,3 @@
-# Welcome to CICS Community Outreach Student Team!
-
 This site is under construction. Please check back soon!
 
 ## Mission

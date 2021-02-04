@@ -1,2 +1,3 @@
-# cics-cost.github.io
+# COST UMass
+
 Community Outreach Student Team at CICS, UMass Amherst

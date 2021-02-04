@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.landing {
+  min-height: 100vh;
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li a {
+  padding-left: 10rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-links li a p:hover {
+  color: #385661;
+}
+
+#logo {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.big-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 2.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 255, 255);
+  background-color: #DC143C;
+  border-radius: 10px;
+  padding: 10px 20px;
+  /* border: 1px solid whitesmoke; */
+}
+
+.big-text:hover {
+  background-color: #2663a8;
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: rgb(228, 234, 238);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  margin:0px;
+  text-align:center;
+}
+
+#container {
+  background-color: white;
+  text-transform: uppercase;
+  font-size:40px;
+  font-weight:bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top:100px; 
+  padding-bottom: 100px; 
+  width:100%;
+  bottom:45%;
+  display:block;
+  color: black;
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:0 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+  border-radius: 10px;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:#42c58a;
+}
+#flip div:first-child div {
+  background:#4ec7f3;
+}
+#flip div:last-child div {
+  background:#DC143C;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+/* body{
+  background: #65a0db;
+}
+
+
+.circle{
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  animation: ripple 15s infinite;
+  box-shadow: 0px 0px 1px 0px #508fb9;
+}
+
+.small{
+  width: 200px;
+  height: 200px;
+  left: -100px;
+  bottom: -100px;
+}
+
+.medium{
+  width: 400px;
+  height: 400px;
+  left: -200px;
+  bottom: -200px;
+}
+
+.large{
+  width: 600px;
+  height: 600px;
+  left: -300px;
+  bottom: -300px;
+}
+
+.xlarge{
+  width: 800px;
+  height: 800px;
+  left: -400px;
+  bottom: -400px;
+}
+
+.xxlarge{
+  width: 1000px;
+  height: 1000px;
+  left: -500px;
+  bottom: -500px;
+}
+
+.shade1{
+  opacity: 0.2;
+}
+.shade2{
+  opacity: 0.5;
+}
+
+.shade3{
+  opacity: 0.7;
+}
+
+.shade4{
+  opacity: 0.8;
+}
+
+.shade5{
+  opacity: 0.9;
+}
+
+@keyframes ripple{
+  0%{
+    transform: scale(0.8);
+  }
+  
+  50%{
+    transform: scale(1.2);
+  }
+  
+  100%{
+    transform: scale(0.8);
+  }
+} */
+
+html {
+	height: 100vh;
+	max-height: 600px;
+	background-color: hsla(200,40%,30%,.4);
+	background-image:		
+		url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+		url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+		url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 100%,
+		0 50%,
+		0 100%,
+		0 0;
+	background-size: 
+		2500px,
+		800px,
+		500px 200px,
+		1000px,
+		400px 260px;
+	animation: 50s para infinite linear;
+	}
+
+@keyframes para {
+	100% {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
+  }
+
+.hover:hover {
+  color: #385661;
+}
+  
+#mission {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #b6bcc2;
+}
+
+#mission p {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+#mission ul li{
+  padding: 10px;
+  font-size: larger;
+}
+
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: aliceblue;
+  display: inline-block;
+}
+
+#contact a p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#contact a p:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+
+#email {
+  border: 3px solid black;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#interest {
+  padding: 10px;
+  border: 3px solid black;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#footer {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <title>CICS COST</title>
+  </head>
+  <body>
+    <main>
+      <section class="landing">
+        <nav>
+          <h1 id="logo">COST</h1>
+          <ul class="nav-links">
+            <li><a href="index.html" style="text-decoration: none; color: black;" class="hover"><p>Home</p></a></li>
+            <li><a href="#container" style="text-decoration: none; color: black;" class="hover"><p>Mission</p></a></li>
+            <li><a href="#contact" style="text-decoration: none; color: black;" class="hover"><p>Contact</p></a></li>
+          </ul>
+        </nav>
+        <center>
+          <a href="mailto:cics-cost-join@cs.umass.edu?subject=Join%20the%20COST%20mailing%20list&body=Add%20me%20to%20the%20mailing%20list.%0D%0A%0D%0AThank%20you!" onclick="alertme()"><h2 class="big-text">Join</h2></a>
+        </center>
+
+        <script>
+          function alertme() {
+            alert('Simply send the composed email to automatically join the COST mailing list.');
+          }
+        </script>
+
+      </section>
+    </main>
+    <div class="intro">
+      <div class="intro-text">
+        <h1 class="hide">
+          <span class="text">Building a community</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">of CICS</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">students.</span>
+        </h1>
+      </div>
+    </div>
+    <div class="slider"></div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+
+
+
+    <div id=container>
+      <span style="color: #385661;">we are</span> community outreach student team. <br><br><br>
+      <div id=flip>
+        <div><div>build</div></div>
+        <div><div>educate</div></div>
+        <div><div>connect</div></div>
+      </div>
+  </div>
+
+    <div id="mission">
+      <p>Our Mission<span>:</span></p><br><br>
+      <ul>
+        <li>Build a community of CICS students who are passionate about outreach.</li>
+        <li>Work with educators (K-12 and undergrad) to understand their CS support needs.</li>
+        <li>Provide opportunities for CICS students to develop effective communication and teaching skills.</li>
+        <li>Connect CICS students with outreach programs in the area offering opportunities for mentors.</li>
+        <li>Educate the broader community with CS topics.</li>
+      </ul>
+    </div>
+    <center>
+      <div id="contact">
+        <a href="mailto:costchairs@cs.umass.edu?subject:I'm%20interested!" style="text-decoration: none; color: black;"><p id="email">Email Us</p></a> <br><br>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdg6PEJL4jzL4yWv47KpDPTH6TRMBEBtMmGYb3Knok_2lG6Lg/viewform" target="_blank" style="text-decoration: none; color: black;"><p id="interest">Interest Form</p></a>
+      </div>
+    </center>
+    
+    <div id="footer">
+      Made with ❤️ @ UMass
+    </div>
+
+  </body>
+</html>

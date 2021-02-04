@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 main {
   font-family: 'Courier New', Courier, monospace;
@@ -17,11 +18,13 @@ nav {
   align-items: center;
   justify-content: space-between;
   min-height: 10vh;
+  width: 100%;
 }
 .nav-links {
   display: flex;
   list-style: none;
 }
+
 .nav-links li a {
   padding-left: 10rem;
   font-size: 1.2rem;
@@ -80,7 +83,8 @@ nav {
 .intro-text {
   color: rgb(233, 233, 233);
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
 
 .hide {
@@ -335,4 +339,40 @@ html {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 800;
+}
+
+#pastevents {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: aliceblue;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#pastevents ol {
+  list-style: none;
+  counter-reset: steps;
+}
+#pastevents ol li {
+  counter-increment: steps;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  font-size: larger;
+  padding: 10px;
+}
+#pastevents ol li::before {
+  content: counter(steps);
+  margin-right: 0.5rem;
+  background: #ff6f00;
+  color: white;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1.2em;
+}
+#pastevents ol ol li::before {
+  background: darkorchid;
 }

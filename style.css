@@ -281,10 +281,11 @@ html {
 }
   
 #mission {
+  border-top: 5px solid black;
   padding-top: 50px;
   padding-bottom: 50px;
   font-family: 'Courier New', Courier, monospace;
-  background-color: #b6bcc2;
+  background-color: aliceblue;
 }
 
 #mission p {
@@ -293,8 +294,22 @@ html {
 }
 
 #mission ul li{
+  counter-increment: steps;
   padding: 10px;
   font-size: larger;
+}
+
+#mission ul li::before {
+  content: counter(steps);
+  margin-right: 0.5rem;
+  background: #42c58a;
+  color: white;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1.2em;
 }
 
 #contact {
@@ -376,3 +391,4 @@ html {
 #pastevents ol ol li::before {
   background: darkorchid;
 }
+

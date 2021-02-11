@@ -293,13 +293,17 @@ html {
   font-weight: 600;
 }
 
-#mission ul li{
+#mission ol {
+  list-style: none;
+}
+
+#mission ol li{
   counter-increment: steps;
   padding: 10px;
   font-size: larger;
 }
 
-#mission ul li::before {
+#mission ol li::before {
   content: counter(steps);
   margin-right: 0.5rem;
   background: #42c58a;
@@ -391,4 +395,3 @@ html {
 #pastevents ol ol li::before {
   background: darkorchid;
 }
-

@@ -24,9 +24,10 @@ nav {
   display: flex;
   list-style: none;
 }
+/*
 @media screen and (max-width: 768px) {
 	display: none;
-}
+}*/
 
 .nav-links li a {
   padding-left: 10rem;
@@ -36,7 +37,7 @@ nav {
 
 .nav-links li a p:hover {
   color: #385661;
-}
+} 
 
 #logo {
   font-family: 'Courier New', Courier, monospace;
@@ -151,7 +152,7 @@ body {
 }
 
 @keyframes show {
-  0% {margin-top:-270px;}
+ 0% {margin-top:-270px;}
   5% {margin-top:-180px;}
   33% {margin-top:-180px;}
   38% {margin-top:-90px;}
@@ -164,8 +165,6 @@ body {
 /* body{
   background: #65a0db;
 }
-
-
 .circle{
   position: absolute;
   border-radius: 50%;
@@ -173,61 +172,51 @@ body {
   animation: ripple 15s infinite;
   box-shadow: 0px 0px 1px 0px #508fb9;
 }
-
 .small{
   width: 200px;
   height: 200px;
   left: -100px;
   bottom: -100px;
 }
-
 .medium{
   width: 400px;
   height: 400px;
   left: -200px;
   bottom: -200px;
 }
-
 .large{
   width: 600px;
   height: 600px;
   left: -300px;
   bottom: -300px;
 }
-
 .xlarge{
   width: 800px;
   height: 800px;
   left: -400px;
   bottom: -400px;
 }
-
 .xxlarge{
   width: 1000px;
   height: 1000px;
   left: -500px;
   bottom: -500px;
 }
-
 .shade1{
   opacity: 0.2;
 }
 .shade2{
   opacity: 0.5;
 }
-
 .shade3{
   opacity: 0.7;
 }
-
 .shade4{
   opacity: 0.8;
 }
-
 .shade5{
   opacity: 0.9;
 }
-
 @keyframes ripple{
   0%{
     transform: scale(0.8);
@@ -252,6 +241,7 @@ html {
 		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
 		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
 		url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    
 	background-repeat: repeat-x;
 	background-position: 
 		0 20%,
@@ -278,6 +268,7 @@ html {
 			400px 0;
 		}
   }
+  
 
 .hover:hover {
   color: #385661;

@@ -73,6 +73,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 .slider {
   background: rgb(228, 234, 238);
@@ -275,7 +276,7 @@ html {
 }
   
 #mission {
-  border-top: 5px solid black;
+  border-top: 5px solid rgb(0, 0, 0);
   padding-top: 50px;
   padding-bottom: 50px;
   font-family: 'Courier New', Courier, monospace;
@@ -388,4 +389,21 @@ html {
 }
 #pastevents ol ol li::before {
   background: darkorchid;
+}
+
+#slideshow{
+  /* width: 100%; */
+   overflow: scroll; 
+  /* display: flex; */
+  position: relative;
+  height: 533px
+}
+
+#slideshow > img {
+	position: absolute;
+	height: 100%;
+}
+
+#slideshow > img.transition {
+	transition: left 2s;
 }

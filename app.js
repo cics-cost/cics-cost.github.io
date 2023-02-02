@@ -50,4 +50,3 @@ function moveSlide() {
 }
 
 setTimeout(()=>setInterval(moveSlide, 4000), 4000)
-

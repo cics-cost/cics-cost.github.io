@@ -390,12 +390,12 @@ html {
 #pastevents ol ol li::before {
   background: darkorchid;
 }
-
+/*
 #slideshow{
   /* width: 100%; */
-   overflow: scroll; 
+  /* overflow: scroll; */
   /* display: flex; */
-  position: relative;
+/*  position: relative;
   height: 533px
 }
 
@@ -407,4 +407,25 @@ html {
 #slideshow > img.transition {
 	transition: left 2s;
 }
+*/
 
+.slideshow {
+  max-width: 1650px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.transition {
+  display: flex;
+  animation: carousel 20s linear infinite; 
+}
+.slide_img{
+  display: block;
+  width: 640px;
+  object-fit: cover;
+}
+@keyframes carousel {
+  100% {
+    transform: translateX(-2560px) ;
+  }
+}

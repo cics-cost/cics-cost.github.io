@@ -426,6 +426,6 @@ html {
 }
 @keyframes carousel {
   100% {
-    transform: translateX(-3800px) ;
+    transform: translateX(-4000px) ;
   }
 }

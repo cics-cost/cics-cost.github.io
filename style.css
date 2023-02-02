@@ -410,22 +410,22 @@ html {
 */
 
 .slideshow {
-  max-width: 1650px;
+  max-width: 100%;
   margin: 0 auto;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .transition {
   display: flex;
-  animation: carousel 20s linear infinite; 
+  animation: carousel 40s linear infinite; 
 }
 .slide_img{
   display: block;
-  width: 640px;
+  width: 100%;
   object-fit: cover;
 }
 @keyframes carousel {
   100% {
-    transform: translateX(-2560px) ;
+    transform: translateX(-3800px) ;
   }
 }

@@ -8,7 +8,7 @@ tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 console.log("test")
 
 //this is the last offset of the previous picture
-var last = 0
+/*var last = 0
 
 //widths of slideshows
 //we're going to offset left by one of these each time
@@ -17,6 +17,7 @@ const slideshow = document.getElementById("slideshow")
 
 //for each image in the slideshow we're going to offset
 //it's left so that each picture is back to back
+
 for (const img of slideshow.children) {
 	img.style.left = last + "px"
 	last += img.width
@@ -49,4 +50,6 @@ function moveSlide() {
 	currentslide = (currentslide + 1) % siwidths.length
 }
 
-setTimeout(()=>setInterval(moveSlide, 4000), 4000)
+setTimeout(()=>{setInterval(moveSlide, 4000), 4000}
+, 1000)
+*/
